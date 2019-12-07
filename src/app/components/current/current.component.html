@@ -1,0 +1,33 @@
+<div>
+        <table>
+        <tr>
+        
+        <th>
+        <h2>{{MovieList.results[0].title}}</h2>
+        <br>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{MovieList.results[0].poster_path}}">
+        <br>
+        <p>Most popular Movie</p> 
+        <a [routerLink] = "['./Movies']" > More Movies</a>  
+        </th>
+
+        <!--
+        any reason why the the above code is throwing errors in browser but still working
+        fine on my end? if something does not work do let me know please.
+        -->
+
+
+        <th>
+        <h2>{{TVList.results[0].name}}</h2>
+        <br>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{TVList.results[0].poster_path}}">
+        <br>
+        <p>Most popular TV show</p>
+        <a [routerLink] = "['./TV']">More TV</a>
+        
+        </th>
+
+        </tr>
+        
+        </table>
+</div>

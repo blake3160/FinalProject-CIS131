@@ -1,0 +1,10 @@
+<div>
+    <table> 
+    <tr *ngFor = "let result of TVList.results">
+    <h2>{{result.name}}</h2>
+    <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{result.poster_path}}">
+    <h3>First Air: {{result.first_air_date}}</h3> 
+    <p>{{result.overview}}</p>
+    </tr>
+    </table>
+</div>

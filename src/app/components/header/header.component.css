@@ -1,0 +1,31 @@
+header {
+    display: block;
+    background-color: aquamarine;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display:inline-block;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Helvetica;
+    transition: 0.4s;
+}
+h1 {
+    color: black;
+    font-size: 38px;
+    font-family: Helvetica;
+    text-align: center;
+}

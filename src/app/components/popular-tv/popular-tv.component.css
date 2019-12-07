@@ -1,0 +1,28 @@
+h2, h3, p {
+    text-align: center;
+    font-family: Helvetica;
+}
+img {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px darkgray;
+}
+table {
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: gray;
+    padding-bottom: none;
+    box-shadow: 5px 5px darkgray;
+}
+p{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    margin-top: none;
+    padding-top: none;
+    outline-style: solid;
+    padding: 14px;
+    box-shadow: 5px 5px darkgray;
+}
